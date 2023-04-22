@@ -48,12 +48,15 @@ from diffusers.utils.import_utils import is_xformers_available
 
 ####################################################################
 
-MODEL_NAME = "runwayml/stable-diffusion-v1-5"
+#MODEL_NAME = "runwayml/stable-diffusion-v1-5"
+MODEL_NAME = "hakurei/waifu-diffusion"
 OUTPUT_DIR="lora/pokemon"
-DATASET_NAME="lambdalabs/pokemon-blip-captions"
-TRAIN_DATA_DIR=None # is this one or the dataset name
+#DATASET_NAME="lambdalabs/pokemon-blip-captions"
+#DATASET_NAME="images2"
+DATASET_NAME="images2and3"
+TRAIN_DATA_DIR="train" # is this one or the dataset name
 WANDB_PROJECT_NAME="ethz-hackathon"
-WANDB_TEAM="fastai"
+WANDB_TEAM="ethweebs"
 
 ####################################################################
 ## You should play with these params first

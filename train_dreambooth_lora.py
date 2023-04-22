@@ -61,7 +61,7 @@ MODEL_NAME = "runwayml/stable-diffusion-v1-5"
 OUTPUT_DIR="dreambooth_lora/dog"
 INSTANCE_DIR="dog"
 WANDB_PROJECT_NAME="ethz-hackathon"
-WANDB_TEAM=None
+WANDB_TEAM="ethweebs"
 
 ####################################################################
 ## You should play with these params first
